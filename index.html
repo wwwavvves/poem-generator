@@ -15,17 +15,23 @@
         </h2>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
-            type="text"
+            type="search"
             placeholder="Enter topic"
             required
             autofocus
             class="topic-input"
+            id="topic-input"
           />
-          <input type="submit" value="Write poem" class="submit-btn" />
+          <input
+            type="submit"
+            value="Write poem"
+            class="submit-btn"
+            id="submit-btn"
+          />
         </form>
-        <div class="poem">
+        <div class="poem" id="poem">
           Threads of Memory<br />
           <br />
           In the kitchen, a knife gleams,<br />
