@@ -1,6 +1,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-color: #fafafa;
+  color: #28282a;
+}
+
+header {
+  margin: 50px 0 40px 0;
 }
 
 h1 {
@@ -13,8 +19,13 @@ h2 {
   margin-top: 0;
 }
 
+.poem {
+  margin: 30px 0 50px 0;
+}
+
 footer {
   font-size: 12px;
+  opacity: 0.6;
 }
 
 a {
