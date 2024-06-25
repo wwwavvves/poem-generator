@@ -24,13 +24,16 @@ h2 {
   margin-top: 0;
 }
 
+.form-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px 35px;
+  border-radius: 5px;
+}
+
 form {
   display: grid;
   grid-template-columns: 3fr 1fr;
   column-gap: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 30px 35px;
-  border-radius: 5px;
 }
 
 .topic-input {
@@ -57,6 +60,17 @@ form {
   background-color: #843dff;
 }
 
+.hint {
+  font-size: 11px;
+  opacity: 0.6;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.invisible {
+  display: none;
+}
+
 .poem {
   margin: 15px 0 15px 0;
   font-size: 14px;
@@ -69,6 +83,21 @@ form {
 
 .poem strong {
   color: #a46eff;
+}
+.flickering {
+  animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 footer {

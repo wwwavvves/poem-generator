@@ -13,27 +13,31 @@
       <header>
         <h1>AI Poem Generator</h1>
         <h2>
-          Influenced by Li-Young Lee, Frank O'Hara, Yoko Ono and Louise Glück
+          Informed by the poetry of Li-Young Lee, Frank O'Hara, Yoko Ono and
+          Louise Glück
         </h2>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="search"
-            placeholder="Enter topic"
-            required
-            autofocus
-            class="topic-input"
-            id="topic-input"
-          />
-          <input
-            type="submit"
-            value="Write poem"
-            class="submit-btn"
-            id="submit-btn"
-          />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-wrapper">
+          <form id="poem-generator-form">
+            <input
+              type="search"
+              placeholder="Enter topic of poem"
+              required
+              autofocus
+              class="topic-input"
+              id="topic-input"
+            />
+            <input
+              type="submit"
+              value="Write poem"
+              class="submit-btn"
+              id="submit-btn"
+            />
+          </form>
+          <div class="hint">i.e. Peaches, Flowers, Sky</div>
+        </div>
+        <div class="poem invisible" id="poem"></div>
       </main>
     </div>
     <footer>
