@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Poem Generator</title>
   </head>
   <body>
@@ -32,22 +33,7 @@
             id="submit-btn"
           />
         </form>
-        <div class="poem" id="poem">
-          Threads of Memory<br />
-          <br />
-          In the kitchen, a knife gleams,<br />
-          a whisper of my father’s lessons.<br />
-          Outside, the city pulses,<br />
-          an orange warms in my hand.<br />
-          <br />
-          A breeze murmurs dreams,<br />
-          clouds form within.<br />
-          In the garden, a single violet<br />
-          trembles, a promise of spring.<br />
-          <br />
-          Each moment, a thread,<br />
-          weaving the fabric of who I am.<br />
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
     </div>
     <footer>
